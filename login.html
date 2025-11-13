@@ -112,8 +112,8 @@
         if (email === correctEmail && password === correctPassword) {
             // Oturum açıldı — yönlendirme
             alert("Login successful!");
-            // İstediğin dashboard sayfasına yönlendir:
-            window.location.href = "index.html"; // veya "dashboard.html"
+            // Giriş başarılıysa istenen GitHub Pages adresine yönlendir:
+            window.location.href = "https://dosageapp.github.io/dosagedata/index.html";
             return false; // formun gerçek submit olmasını engelle
         } else {
             // Hatalı giriş
@@ -133,15 +133,4 @@
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-80463319-4', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <script src="js/vendor.js"></script>
-    <script src="js/app.js"></script>
-</body>
-
-</html>
+            a.async
